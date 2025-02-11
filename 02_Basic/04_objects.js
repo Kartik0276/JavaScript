@@ -9,7 +9,7 @@ const regularUser = {
     email : "kart@gja",
     fullname:{
         userfullname:{
-            firstname : "Martik",
+            firstname : "Kartik",
             lastname : "Maity"
         }
     }
@@ -29,4 +29,18 @@ const obj3 = {...obj1, ...obj2}
 // console.log(obj3)
 
 
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "hitesh"
+}
 
+//extract value from course
+//course.courseInstructor
+
+const {courseInstructor} = course //De-structuring
+// console.log(courseInstructor)
+
+
+//API format
+//object format and array format
